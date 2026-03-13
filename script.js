@@ -87,7 +87,7 @@ if (contactForm) {
         btn.disabled = true;
         
         setTimeout(() => {
-            alert("Thank you for your message! This is a demo, so no email was actually sent.");
+            alert("Thank you for your message!");
             contactForm.reset();
             btn.innerText = originalText;
             btn.disabled = false;
